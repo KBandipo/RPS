@@ -1,4 +1,13 @@
 .btns {
-  display: flex;
   gap: 10px;
+}
+
+/*order matters in css*/
+
+.flex {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
