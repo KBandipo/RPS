@@ -10,12 +10,12 @@
     <h1 class="heading">Rock, Paper, Scissors</h1>
     <h2 class="requestChoice">Make a choice?</h2>
     <div class="choiceMessage">Player Choices</div>
-    <div class="btns">
-      <button class="btn rock">Rock</button>
-      <button class="btn paper">Paper</button>
-      <button class="btn scissors">Scissors</button>
+    <div class="btns flex hide">
+      <button class="btn rock" id='rock'>Rock</button>
+      <button class="btn paper" id='paper'>Paper</button>
+      <button class="btn scissors" id='scissors'>Scissors</button>
     </div>
-
+    <button id="playAgain">Play Again!</button>
     <div>
       <h2 class="compChoice">Computer's choice</h2>
       <div class="compMessage">Computer message</div>
@@ -23,9 +23,9 @@
     </div>
     <div>
       <h3 class="winner">Winner</h3>
-      <h3 class="round">ROUND</h3>
-      <h3 class="compScore">COMPUTER SCORE</h3>
-      <h3 class="playerScore">PLAYER SCORE</h3>
+      <h3 class="round">ROUND: 0</h3>
+      <h3 class="compScore">COMPUTER SCORE: 0</h3>
+      <h3 class="playerScore">PLAYER SCORE: 0</h3>
     </div>
     <script type="module" src="./Resources/JavaScript/script.js"></script>
   </body>
